@@ -1,0 +1,19 @@
+PS C:\learning-react> git init
+Initialized empty Git repository in C:/learning-react/.git/
+PS C:\learning-react> git branch -m main
+PS C:\learning-react> git add .
+PS C:\learning-react> git commit -m "ep-1"
+[main (root-commit) 748cfee] ep-1
+ 4 files changed, 26 insertions(+)
+ create mode 100644 App.js
+ create mode 100644 README.md
+ create mode 100644 index.css
+ create mode 100644 index.html
+PS C:\learning-react> git remote add origin https://github.com/anilpin2/learning-react.git
+PS C:\learning-react> git push -u origin main
+npm init
+npm install -D parcel
+npx parcel index.html //executing the package
+
+
+//remove "main": "App.js", from package.json when building app using parcel
